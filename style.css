@@ -1,5 +1,4 @@
-﻿/* Общие стили */
-* {
+﻿* {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -8,14 +7,12 @@
 body {
     font-family: 'Times New Roman', serif;
     line-height: 1.6;
-    background-color: #f9f4e8; /* светлый бежевый */
-    color: #2f2f2f; /* темно-серый для текста */
+    background-color: #f9f4e8; 
+    color: #2f2f2f; 
     padding: 20px;
 }
-
-/* Шапка */
 header {
-    background-color: #d4b89c; /* нежный бежево-коричневый */
+    background-color: #d4b89c; 
     padding: 25px 20px;
     border-radius: 10px;
     margin-bottom: 30px;
@@ -26,19 +23,16 @@ header {
     header h1 {
         font-family: 'Times New Roman', serif;
         font-size: 2.5rem;
-        color: #a83232; /* насыщенный красный */
+        color: #a83232; 
         letter-spacing: 1.5px;
     }
-
-/* Основной контент */
 main {
     max-width: 1200px;
     margin: 0 auto;
 }
 
-/* Форма создания задач */
 .task-form-section {
-    background-color: #fff4e6; /* очень светлый бежевый */
+    background-color: #fff4e6; 
     padding: 35px 30px;
     border-radius: 12px;
     box-shadow: 0 3px 12px rgba(0,0,0,0.1);
@@ -51,7 +45,6 @@ main {
     gap: 18px;
 }
 
-/* Группы формы */
 .form-group {
     display: flex;
     flex-direction: column;
@@ -62,7 +55,7 @@ label {
     font-size: 1.2rem;
     font-weight: 600;
     margin-bottom: 8px;
-    color: #6e4b3a; /* теплый коричневый */
+    color: #6e4b3a; 
 }
 
 input[type="text"],
@@ -70,10 +63,10 @@ textarea {
     padding: 14px;
     font-family: 'Times New Roman', serif;
     font-size: 1.1rem;
-    border: 2px solid #b57d5e; /* теплый коричнево-золотой */
+    border: 2px solid #b57d5e; 
     border-radius: 8px;
     transition: all 0.2s ease;
-    background: #fff8f0; /* светлый беж */
+    background: #fff8f0; 
 }
 
     input[type="text"]:focus,
@@ -83,11 +76,9 @@ textarea {
         box-shadow: 0 0 8px rgba(139, 94, 60, 0.2);
         background: #fff2e0;
     }
-
-/* Кнопка "Добавить" */
 button {
     padding: 14px 32px;
-    background-color: #8b0000; /* тёмный красный */
+    background-color: #8b0000; 
     color: #fff;
     border: none;
     border-radius: 10px;
@@ -105,7 +96,6 @@ button {
         transform: translateY(-2px);
     }
 
-/* Секция задач */
 .tasks-section {
     margin-bottom: 60px;
 }
@@ -118,16 +108,14 @@ button {
         margin-bottom: 20px;
     }
 
-/* Контейнер карточек задач */
 .tasks-container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
     gap: 20px;
 }
 
-/* Карточки задач */
 .task-card {
-    background-color: #fff8f0; /* очень светлый беж */
+    background-color: #fff8f0; 
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 4px 12px rgba(0,0,0,0.1);
@@ -142,28 +130,24 @@ button {
         box-shadow: 0 8px 20px rgba(0,0,0,0.15);
     }
 
-/* Название задачи */
 .task-title {
     font-family: 'Times New Roman', serif;
     font-size: 1.4rem;
     font-weight: normal;
     margin-bottom: 10px;
-    color: #a83232; /* красный оттенок */
+    color: #a83232; 
 }
 
-/* Описание задачи */
 .task-description {
     font-size: 1rem;
     color: #444;
     line-height: 1.4;
     margin-bottom: 15px;
 }
-
-/* Кнопка удаления */
 .delete-btn {
     align-self: flex-end;
     padding: 8px 14px;
-    background-color: #5a2e2e; /* более темный коричневый */
+    background-color: #5a2e2e; 
     color: #fff;
     border: none;
     border-radius: 8px;
@@ -180,7 +164,6 @@ button {
         transform: translateY(-1px);
     }
 
-/* Адаптивность */
 @media(max-width: 768px) {
     header h1 {
         font-size: 2rem;
@@ -209,3 +192,4 @@ button {
         padding: 20px 15px;
     }
 }
+
